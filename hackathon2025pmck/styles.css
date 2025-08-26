@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #2eb872;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('img10.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 58vh; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tips-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tip {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2eb872;
+    color: white;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.about-intro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 95%;
+    height: 50vh;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 15px 30px rgba(8, 8, 8, 0.1);
+}
+.about-content {
+    display: flex;
+    align-items: center; 
+}
+
+.about-image {
+    max-width: 500px;
+  height: 275px;
+    margin-right: 20px; 
+    border-radius: 8px; 
+}
+
+.mission{
+background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 15px 30px rgba(8, 8, 8, 0.1);
+    height: 50vh;
+}
+.team{
+background-color: white;
+    border: 1px solid #ddd;
+    width: 95%;
+    border-radius: 5px;
+     padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    margin: 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.gallery-item p {
+    padding: 10px;
+    font-size: 1em;
+}
+.contact-intro, .contact-info {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+    margin-left: 350px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    margin-right: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+    
+}
+
+h2 {
+    text-align: center;
+}
+ .gallery-item:hover{
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+ }
+ .cta-button:hover{
+  color: black;
+  background-color: 
+  lightblue;
+ }
+ .b:hover{
+    transform: scale(1.5);
+    transition: all linear 0.5s;
+    color: #000000;
+ }
+ .h1:hover{
+    color: black;
+ }
+ .tip:hover{
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+ }
+ #name{
+    width: 80%;
+ }
+#email{
+    width: 80%;
+}
+#message{
+    width: 80%;
+}
